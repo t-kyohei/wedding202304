@@ -92,4 +92,19 @@ function checkcount(){
                 kiba.addEventListener('touchstart', touchStartEvent, false);
                 kiba.addEventListener('touchmove', touchMoveEvent, false);
                 kiba.addEventListener('touchend', touchEndEvent, false);
+
+
+
+/*
+*色変更
+*
+*/
+
+$(function() {
+	$(".red").click(function() {
+		$(".body").addClass("red"); 	   
+	   }
+	);
+} );
+
         

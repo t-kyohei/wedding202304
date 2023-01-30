@@ -360,3 +360,18 @@ localStorage.removeItem('last2');
 window.location.href = './'; 
 
 }
+
+
+/*
+*色変更
+*
+*/
+
+$(function() {
+	$(".red").click(function() {
+		$(".body").classList.add("red"); 	   
+	   }
+	);
+} );
+ 
+
